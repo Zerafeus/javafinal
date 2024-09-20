@@ -1,0 +1,16 @@
+
+1 - Criar o projeto(Java Project)
+2 - Package (Qualquer Nome)
+	-Classe (Nome do algoritmo)
+	-Selecionamos o método main
+
+
+Seguinte estrutura:
+package nome
+
+public class media{
+
+	public static void main(String[]args){
+}
+
+}

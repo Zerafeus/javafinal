@@ -1,0 +1,8 @@
+INDEX VERSION 1.134+D:\CURSO\SEMESTRE 2\ALGORITIMOS\AULA03\.metadata\.plugins\org.eclipse.jdt.core
+2568262207.index
+1950597.index
+124782492.index
+1865797976.index
+3994264233.index
+1886861066.index
+2317852234.index

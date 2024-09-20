@@ -1,0 +1,88 @@
+1  - Criar um algoritmo em pseudocódigo que solicite ao usuário que informe três números e calcule e mostre a media aritmética entre eles.
+
+Algoritmo media
+	inteiro n1,n2,n3
+	real media
+inicio
+	escreva ("Informe o primeiro numero: ")
+	leia(n1)
+	escreva ("Informe o segundo numero: ")
+	leia(n2)
+	escreva ("Informe o terceiro numero: ")
+	leia(n3)
+	media = (n1+n2+n3)/3
+	escreva("A média é:" + media)
+
+fim
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
+2 - Criar um algoritmo em pseudocódigo que solicite ao usuário a temperatura em graus Celsius e converta para Fahrenheit. Sabe-se que:
+fahrenheit = (celsius * 9/5) + 32
+
+Algoritmo celsiusparafahrenheit
+	real celsius,fahrenheit 
+
+inicio
+	escreva ("Informe a temperatura em Celsius para converter: ")
+	leia(celsius)
+	fahrenheit = (celsius*9/5) + 32
+	escreva("A temperatura para Fahrenheit é de:" + fahrenheit)
+fim
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+3 - Crie um algoritmo em pseudocódigo que calcule a área de um retângulo a partir da largura e altura informada pelo usuário
+
+
+Algoritmo arearetangulo
+	real largura,altura,retangulo
+inicio
+	escreva("Informe a largura: ")
+	leia(largura)
+	escreva("Informe a altura")
+	leia(altura)
+	retangulo = largura*altura
+	escreva("A área do retângulo é de:" + retangulo)
+fim
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
+	
+4 - Crie um algoritmo em pseudocódigo que leia dois números e mostre a soma destes números
+
+Algoritmo soma
+	real n1,n2,resultado
+Inicio
+	escreva("Informe o primeiro numero: ")
+	leia(n1)
+	escreva("Informe o segundo numero: ")
+	leia(n2)
+
+	resultado = n1+n2
+	escreva("A soma dos dois números é de:" + resultado)
+fim
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+5 - Crie um algoritmo em pseudocódigo que leia o valor de um produto e calcule e mostre o valor final após aplicar um desconto de 10%
+
+Algoritmo produto
+	real produto,desconto
+Inicio
+	escreva("Digite o valor do produto: ")
+	leia(produto)
+	
+	desconto = (produto*0.1)+produto
+	escreva("Desconto de 10% aplicado, resultando em:" + desconto)
+fim
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+6 - Crie um algoritmo que leia a idade de uma pessoa de anos e converta e mostre em dias (considerando que temos 365 dias)
+
+Algoritmo idade
+	real idade,dias
+Inicio
+	escreva("Digite sua idade: ")
+	leia(idade)
+	
+	dias = idade*365
+	escreva("Sua idade convertida em dias fica em: " + dias)
+fim
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------

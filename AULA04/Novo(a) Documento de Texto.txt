@@ -1,0 +1,115 @@
+Estrutura de seleção simples.
+Crie um algoritmo em pseudocódigo que recebe duas notas, calcule a media e mostre uma mensagem para os alunos aprovados.(media maior que 7)
+
+Algoritmo Media
+	real nota1,nota2,media
+Inicio
+	escreva("Informe a primeira nota: ")
+	leia (nota1)
+	escreva("Informe a segunda nota: ")
+	leia (nota2)
+	media = (nota1 + nota2)/2
+	SE(media > 7) ENTÃO
+           escreva("Aprovado")  //SEMPRE VAI EXECUTAR SE O RETORNO FOR VERDADEIRO/TRUE
+	FIM_SE
+Fim
+
+Estrutura de seleção composta
+Crie um algoritmo em pseudocódigo que recebe duas notas, calcule a media e mostre uma mensagem para os alunos aprovados e uma mensagem para alunos reprovados.(media maior que 7)
+
+Algoritmo Media
+	real nota1,nota2,media
+Inicio
+	escreva("Informe a primeira nota: ")
+	leia (nota1)
+	escreva("Informe a segunda nota: ")
+	leia (nota2)
+	media = (nota1 + nota2)/2
+	SE(media > 7) ENTÃO
+           escreva("Aprovado") //TRUE
+	SENÃO
+	   escreva("Reprovado") //FALSE
+	FIM_SE
+Fim
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+1 - Escreva um algoritmo que calcule o salario de um funcionário considerando o salario base e a quantidade de horas extras trabalhadas. O valor da hora extra deve ser 50% a mais que o valor da hora normal. se o salario superar R$500 deverá receber um acréscimo de 30%.
+
+Algoritmo Salario
+	real salariobase , horasextras , horastrabalhadas,
+	real valorhora,valorhoraextra , salariofinal
+Inicio
+	escreva("Digite seu salario base: ")
+	leia(salariobase)
+	escreva("Digite quantidade de horas extras: ")
+	leia(horasextras)
+	escreva("Digite quantidade de horas extras: ")
+	leia(horastrabalhadas)
+	
+	valorhora = salariobase / horas trabalhadas
+	valorhoraextra = valorhora * 1.5
+	salariofinal = salariobase + (horasextras * valorhoraextra)
+	SE(salariofinal > 500) ENTÃO
+		salariofinal = salariofinal * 1.3
+	FIM-SE
+	escreva("Seu salario é: " + salario)
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+2 - Cria um algoritmo em pseudo código que calcule a media ponderada de três notas, com pesos 2, 3 e 5, respectivamente
+
+Algoritmo Media
+	real num1, num2, num3
+Inicio
+	escreva("Digite a primeira")
+	leia(num1)
+	escreva("Digite a segunda nota")
+	leia(num2)
+	escreva("Digite a terceira nota")
+	leia(num3)
+	
+	mediaponderada = (nota1 * 2 + nota2 * 3 + nota3 * 5) / (2+3+5)
+	escreva(mediaponderada)
+Fim
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+3 - Escreva um algoritmo que resolva uma equação do segundo grau (ax² + bx + c = 0) utilizando a formula de Bhaskara.
+
+Algoritmo equação
+	real a, b , c , delta, x1,x2
+Inicio
+	leia(a)
+	leia(b)
+	leia(c)
+	delta = b^2 - 4*a*c
+	SE(delta >= 0)ENTAO
+	   x1 = (-b + raiz(delta)) / (2*a)
+	   x2 = (-v - raiz(delta)) / (2*a)
+	   escreva("As raízes são: " + x1 + "e" + x2)
+	SENÃO
+	   escreva("A equação não possui raízes reais"
+	FIM-SE
+fim
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
